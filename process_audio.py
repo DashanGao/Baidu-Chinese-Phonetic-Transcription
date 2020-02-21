@@ -1,7 +1,7 @@
 from pydub import AudioSegment
 import os
 
-source_file = "/Users/gds/Documents/Code/speech_Baidu/speech-demo/rest-api-asr/python/audio/full_talk_1h.mp3"
+source_file = "Path to .mp3 file"
 output_dir = "output_audios/"
 
 
