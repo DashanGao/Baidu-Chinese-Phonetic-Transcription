@@ -1,4 +1,4 @@
-# Chinese Audio To Text Conversion 中文语音文字转换
+# Chinese Audio To Text Conversion 中文语音转文字
 
 --------------
 
