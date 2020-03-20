@@ -19,9 +19,9 @@ Then, the API is invoked for each audio file to convert the audio into Chinese. 
 ![创建新应用](https://github.com/GaoDashan1/Audio_To_Text/blob/master/imgs/img2.png)
 * 应用创建成功，获取API Key和Secret Key
 ![应用创建成功](https://github.com/GaoDashan1/Audio_To_Text/blob/master/imgs/img3.png)
-3. 将需要转音频的MP3文件路径粘贴到`python3 audio_text_conversion.py`中。
-5. 安装`pydub`库，命令行运行`pip3 install pydub`
-4. 运行代码 `python3 audio_text_conversion.py`
+3. 设定参数：打开`audio_text_conversion.py`文件（用任何文本编辑器，如命令行可使用vim）。将API Key和Secret Key输入`API_KEY`和`SECRET_KEY`中，并且将需要转音频的MP3文件路径复制到`SOURCE_AUDIO_FILE`。
+5. 安装`pydub`库：在终端运行`pip3 install pydub`
+4. 开始语音转文字：在终端运行代码 `python3 audio_text_conversion.py`
 
 
 
